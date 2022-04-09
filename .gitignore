@@ -2,23 +2,19 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-UnityProject/.vs/
-UnityProject/Library/
-UnityProject/Temp/
-UnityProject/PC_Build/
-UnityProject/Assets/ScreenCapture/
-UnityProject/*.log
-UnityProject/Logs
-UnityProject/obj
-UnityProject/*.csproj
-UnityProject/*.sln
-UnityProject/*.vsconfig
+SRP-Practice/.vs/
+SRP-Practice/Library/
+SRP-Practice/Temp/
+SRP-Practice/PC_Build/
+SRP-Practice/Assets/ScreenCapture/
+SRP-Practice/*.log
+SRP-Practice/Logs
+SRP-Practice/obj
+SRP-Practice/*.csproj
+SRP-Practice/*.sln
+SRP-Practice/*.vsconfig
 *.pyc
 
 *.suo
 *.opensdf
 *.sdf
-EditorStartupPrefs.asset
-EditorStartupPrefs.asset.meta
-DOTweenSettings.asset
-DOTweenSettings.asset.meta
