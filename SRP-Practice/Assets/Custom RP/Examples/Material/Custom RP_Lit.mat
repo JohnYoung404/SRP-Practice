@@ -7,11 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom RP_Unlit 1
-  m_Shader: {fileID: 4800000, guid: 7bfda2ad0c9deb74d9bb62476029a3fa, type: 3}
-  m_ShaderKeywords: _CLIPPING
+  m_Name: Custom RP_Lit
+  m_Shader: {fileID: 4800000, guid: b49a4fb601eb1144b9e17fa0a946b24e, type: 3}
+  m_ShaderKeywords: _PREMULTIPLY_ALPHA
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap: {}
@@ -24,11 +24,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Clipping: 1
+    - _Clipping: 0
     - _Cutoff: 0.5
     - _DstBlend: 10
+    - _Metallic: 0
+    - _PremulAlpha: 1
+    - _Smoothness: 0.5
     - _SrcBlend: 1
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.9056604, g: 0.35372013, b: 0.35372013, a: 1}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_BuildTextureStacks: []
